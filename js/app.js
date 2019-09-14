@@ -6,5 +6,10 @@ const imageArr = ['01.jpeg', '02.jpeg', '03.jpeg']
 
 imageCardArr.forEach((image, index) => {
   // image.style.backgroundImage = url(`../lesson/images/${imageArr[index]}`)
-  log(image.style.backgroundImage)
-})
+  //log(image.style.backgroundImage)
+});
+$('#nav-menu-trigger').onclick = () => {
+  $('.nav-menu').style.visibility = 'visible'
+}
+
+$('.close').onclick = () => $('.nav-menu').style.visibility = 'hidden';
