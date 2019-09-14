@@ -146,6 +146,11 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
+.download-song {
+  padding: 0.3em;
+  color: #f0c604;
+  cursor: pointer;
+}
 .image-text-heading {
   color: #f0c604;
 }
@@ -257,13 +262,14 @@ footer {
     height: 40vh;
   }
   #header-text-heading {
-    margin: 0 0 5vh 10vw;
+    margin: 5vh 0 5vh 10vw;
     font-size: 1rem;
   }
   #header-text-text {
     margin: 0 10vw 0 10vw;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     grid-column: span 2;
+    color: #fff;
   }
   .image-grid {
     grid-template-columns: 1fr;
